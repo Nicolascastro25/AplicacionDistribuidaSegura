@@ -7,8 +7,8 @@
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <exec.mainClass>co.edu.escuelaing.sparksecureapp.SparkSecureApp</exec.mainClass>
     </properties>
     <dependencies>
@@ -61,7 +61,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        co.edu.escuelaing.mathservice1.MathService1
+                                        co.edu.escuelaing.sparksecureapp.SparkSecureApp
                                     </mainClass>
                                 </manifest>
                             </archive>

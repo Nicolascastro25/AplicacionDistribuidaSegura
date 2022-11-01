@@ -38,7 +38,7 @@ public class SparkSecureAppSecond {
         if (System.getenv("KEYSTORE") != null) {
             return System.getenv("KEYSTORE");
         }
-        return "keystores/awskeystore.p12";
+        return "keystores/ecikeystore2.p12";
     }
 
     /**
@@ -50,7 +50,7 @@ public class SparkSecureAppSecond {
         if (System.getenv("KEYSTOREPWD") != null) {
             return System.getenv("KEYSTOREPWD");
         }
-        return "arep123";
+        return "123456";
     }
 
     /**
@@ -63,15 +63,15 @@ public class SparkSecureAppSecond {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));
         }
-        return 5000;
+        return 5002;
     }
     
     /**
      * Método que obtiene la URL del aplicativo desplegado en AWS.
      * @return Url de la app desplegada en AWS
      */
-    public static String getUrlAppSecure2(){
-        return "";
+    public static String getUrlAppSecure(){
+        return "https://ec2-44-203-48-51.compute-1.amazonaws.com:5002/inicio";
     }
 
 }

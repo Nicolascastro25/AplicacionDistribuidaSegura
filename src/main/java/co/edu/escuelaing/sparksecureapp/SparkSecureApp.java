@@ -23,7 +23,7 @@ public class SparkSecureApp {
         secure(getKeyStore(), getKeyStorePassword(), null, null); 
         SecureUrlReader.loadTrustStore(SparkSecureAppSecond.getKeyStore(), SparkSecureAppSecond.getKeyStorePassword());
         get("/inicio", (req, res) -> "Hello to first SparkApp");
-        get("/remoto", (req, res) -> SecureUrlReader.readURL(SparkSecureAppSecond.getUrlAppSecure2()));
+        get("/remoto", (req, res) -> SecureUrlReader.readURL(SparkSecureAppSecond.getUrlAppSecure()));
     }
 
     /**
@@ -36,7 +36,7 @@ public class SparkSecureApp {
         if (System.getenv("KEYSTORE") != null) {
             return System.getenv("KEYSTORE");
         }
-        return "keystores/awskeystore.p12";
+        return "keystores/ecikeystore.p12";
     }
 
     /**
@@ -48,7 +48,7 @@ public class SparkSecureApp {
         if (System.getenv("KEYSTOREPWD") != null) {
             return System.getenv("KEYSTOREPWD");
         }
-        return "arep123";
+        return "123456";
     }
 
     /**
@@ -69,7 +69,7 @@ public class SparkSecureApp {
      * @return Url de la app desplegada en AWS
      */
     public static String getUrlAppSecure(){
-        return "";
+        return "https://ec2-3-91-31-92.compute-1.amazonaws.com:5000/inicio";
     }
 
 }
