@@ -13,3 +13,9 @@ Desarrolle una aplicación Web segura con los siguientes requerimientos:
 1. Código en github, bien documentado.
 2. Informe que describe la arquitectura de seguridad de su prototipo. (en el README)
 3. Video de experimento en AWS
+
+# Desarrollo de la solución:
+
+Arquitectura de seguridad del prototipo:
+
+![image](https://user-images.githubusercontent.com/25957863/199260798-23c73adc-5965-4395-89b9-8d57e3ab980b.png)
