@@ -53,4 +53,7 @@ Y ejecutamos con el comando:
 `
 java -cp target/classes:target/dependency/* co.edu.escuelaing.sparksecureapp.SparkSecureApp
 `
+Vemos corriendo la primera instancia:
+
+![image](https://user-images.githubusercontent.com/25957863/199274929-bd6edc66-3800-4953-932a-4e643270b4b6.png)
 
