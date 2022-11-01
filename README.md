@@ -32,4 +32,8 @@ Creamos los pares de claves, así:
 
 ![image](https://user-images.githubusercontent.com/25957863/199265641-58af9c20-91dd-4a88-97f1-1449da56be7a.png)
 
+Creamos la instancia e ingresamos a través de consola a la misma para instalar Java, así:
+
+![image](https://user-images.githubusercontent.com/25957863/199266897-1859a35d-be32-4fa2-917f-9b7cde137c97.png)
+
 
