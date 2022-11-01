@@ -58,3 +58,28 @@ Vemos corriendo la primera instancia:
 
 ![image](https://user-images.githubusercontent.com/25957863/199274929-bd6edc66-3800-4953-932a-4e643270b4b6.png)
 
+Nos conectamos a la segunda instancia y montamos el proyecto:
+
+![image](https://user-images.githubusercontent.com/25957863/199276284-5d3844a7-e272-4245-b34c-f69845e74732.png)
+
+Nos conectamos a través de SSH a la instancia y extraemos el .zip:
+
+![image](https://user-images.githubusercontent.com/25957863/199276595-309eb5ed-27f8-41d5-b7a7-a4fb2f48d80b.png)
+
+Instalamos Java:
+
+![image](https://user-images.githubusercontent.com/25957863/199277060-a0947dad-0865-4ff2-9b2f-faf2500a06be.png)
+
+Y ejecutamos con el comando:
+
+`
+java -cp target/classes:target/dependency/* co.edu.escuelaing.sparksecureapp.SparkSecureAppSecond
+`
+
+Vemos corriendo la instancia número 2 con la app Web:
+
+![image](https://user-images.githubusercontent.com/25957863/199278161-5a4ab4e5-d3b6-4eb9-b072-cf4da9cd5f26.png)
+
+Realizando pruebas:
+
+![image](https://user-images.githubusercontent.com/25957863/199284192-16c95cde-de31-482f-b682-1c22ed3b3373.png)
