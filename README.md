@@ -83,3 +83,5 @@ Vemos corriendo la instancia número 2 con la app Web:
 Realizando pruebas:
 
 ![image](https://user-images.githubusercontent.com/25957863/199284192-16c95cde-de31-482f-b682-1c22ed3b3373.png)
+
+![image](https://user-images.githubusercontent.com/25957863/199284648-68b22980-c30c-4b91-9b30-deb234175b50.png)
