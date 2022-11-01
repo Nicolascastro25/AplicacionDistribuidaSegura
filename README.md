@@ -50,7 +50,7 @@ Los extraemos:
 
 Y ejecutamos con el comando:
 
-´´´
+`
 java -cp target/classes:target/dependency/* co.edu.escuelaing.sparksecureapp.SparkSecureApp
-´´´
+`
 
