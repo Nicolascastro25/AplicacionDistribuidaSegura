@@ -40,7 +40,17 @@ Una vez finalizada la instalación veremos lo siguiente:
 
 ![image](https://user-images.githubusercontent.com/25957863/199267251-99db892f-082c-443d-9c9d-fc8075caa557.png)
 
-Copiamos el archivo .jar en nuestra instancia, así:
+Copiamos el archivo .zip en nuestra instancia, así:
 
-![image](https://user-images.githubusercontent.com/25957863/199268850-43793268-2b5e-4f3d-8947-d7b1acdec34a.png)
+![image](https://user-images.githubusercontent.com/25957863/199271679-322b947f-0592-4f2b-98f6-34432597a53e.png)
+
+Los extraemos:
+
+![image](https://user-images.githubusercontent.com/25957863/199271781-9af0f703-2dd9-499b-adb3-1135090be7a2.png)
+
+Y ejecutamos con el comando:
+
+´´´
+java -cp target/classes:target/dependency/* co.edu.escuelaing.sparksecureapp.SparkSecureApp
+´´´
 
