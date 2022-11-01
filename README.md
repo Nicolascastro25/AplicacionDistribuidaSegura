@@ -40,3 +40,7 @@ Una vez finalizada la instalación veremos lo siguiente:
 
 ![image](https://user-images.githubusercontent.com/25957863/199267251-99db892f-082c-443d-9c9d-fc8075caa557.png)
 
+Copiamos el archivo .jar en nuestra instancia, así:
+
+![image](https://user-images.githubusercontent.com/25957863/199268850-43793268-2b5e-4f3d-8947-d7b1acdec34a.png)
+
