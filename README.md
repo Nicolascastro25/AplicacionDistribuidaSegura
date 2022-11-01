@@ -36,4 +36,7 @@ Creamos la instancia e ingresamos a través de consola a la misma para instalar 
 
 ![image](https://user-images.githubusercontent.com/25957863/199266897-1859a35d-be32-4fa2-917f-9b7cde137c97.png)
 
+Una vez finalizada la instalación veremos lo siguiente:
+
+![image](https://user-images.githubusercontent.com/25957863/199267251-99db892f-082c-443d-9c9d-fc8075caa557.png)
 
